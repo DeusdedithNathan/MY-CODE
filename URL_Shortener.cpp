@@ -23,3 +23,4 @@ std::string originalURL, shortURL;
  srand(time(0)); // Seed the random number generator
  
  while (true) {
+std::cout << "Menu:\n1. Shorten URL\n2. Retrieve Original URL\n3. Exit\nEnter your choice: ";
