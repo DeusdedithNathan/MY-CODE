@@ -14,3 +14,6 @@ const size_t length = 6; // Length of the shortened URL
     }
     return shortURL;
 }
+
+int main() {
+    
