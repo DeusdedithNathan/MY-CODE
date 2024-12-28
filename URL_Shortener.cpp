@@ -24,3 +24,5 @@ std::string originalURL, shortURL;
  
  while (true) {
 std::cout << "Menu:\n1. Shorten URL\n2. Retrieve Original URL\n3. Exit\nEnter your choice: ";
+std::cin >> choice;
+        std::cin.ignore(); // To ignore the newline character after entering the choice
