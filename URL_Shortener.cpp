@@ -16,4 +16,4 @@ const size_t length = 6; // Length of the shortened URL
 }
 
 int main() {
-    
+     std::unordered_map<std::string, std::string> urlMap; // Map to store original and shortened URLs
