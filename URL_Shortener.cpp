@@ -37,5 +37,16 @@ srand(time(0)); // Seed the random number generator
                 std::cout << "Shortened URL: " << shortURL << std::endl;
                 break;
 
+            case 2:
+                // Retrieve Original URL
+                std::cout << "Enter the shortened URL: ";
+                std::getline(std::cin, shortURL);
+                if (urlMap.find(shortURL) != urlMap.end()) {
+                    std::cout << "Original URL: " << urlMap[shortURL] << std::endl;
+                } else {
+                    std::cout << "Shortened URL not found!" << std::endl;
+                }
+                break;
+
 
 
