@@ -19,3 +19,6 @@ int main() {
      std::unordered_map<std::string, std::string> urlMap; // Map to store original and shortened URLs
 std::string originalURL, shortURL;
     int choice;
+
+srand(time(0)); // Seed the random number generator
+
