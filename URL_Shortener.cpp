@@ -55,6 +55,9 @@ srand(time(0)); // Seed the random number generator
             default:
                 std::cout << "Invalid choice! Please try again." << std::endl;
                 break;
+      }
+    }
 
+}                       
 
 
