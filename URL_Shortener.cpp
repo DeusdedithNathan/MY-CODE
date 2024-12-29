@@ -22,3 +22,5 @@ std::string originalURL, shortURL;
 
 srand(time(0)); // Seed the random number generator
 
+ while (true) {
+
