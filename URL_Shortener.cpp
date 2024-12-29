@@ -58,6 +58,5 @@ srand(time(0)); // Seed the random number generator
       }
     }
 
-}                       
-
-
+    return 0;
+}
