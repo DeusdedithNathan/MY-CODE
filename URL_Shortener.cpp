@@ -48,5 +48,13 @@ srand(time(0)); // Seed the random number generator
                 }
                 break;
 
+            case 3:
+                // Exit
+                std::cout << "Exiting..." << std::endl;
+                return 0;
+            default:
+                std::cout << "Invalid choice! Please try again." << std::endl;
+                break;
+
 
 
