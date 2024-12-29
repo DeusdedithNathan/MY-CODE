@@ -28,5 +28,14 @@ srand(time(0)); // Seed the random number generator
         std::cin.ignore(); // To ignore the newline character after entering the choice
         
         switch (choice) {
+        	 case 1:
+                // Shorten URL
+                std::cout << "Enter the original URL: ";
+                std::getline(std::cin, originalURL);
+                shortURL = generateShortURL();
+                urlMap[shortURL] = originalURL;
+                std::cout << "Shortened URL: " << shortURL << std::endl;
+                break;
+
 
 
